@@ -1,0 +1,150 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+.header-wrapper {
+    max-width: 1496px;
+    margin: 0 auto;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.head {
+    color: #f9fafe;
+    padding-top: 36px;
+    
+    background-image: url(../img/Header-BG.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 219px;
+}
+.nav {
+    display: flex;
+}
+.nav-item {
+    list-style-type: none;
+    margin: 0 25px;
+}
+.nav-item a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f9fafe;
+    border-radius: 5px;
+    border: solid 1px transparent;
+    padding: 20px 25px;
+}
+.nav-item:hover a,
+.nav-item.sign-up a {
+    border-color: #f9fafe;
+}
+.title {
+    text-align: center;
+}
+.title-h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: 5.76px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+.title-h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin-bottom: 90px;
+}
+.form form{
+    width: 769px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 300px;
+}
+.form input {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+#sailor-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #717171;
+    width: 571px;
+    height: 60px;
+    border-radius: 5px 0 0 5px;
+    box-sizing: border-box;
+    padding-left: 30px;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+    text-align: left;
+}
+#sailor-btn {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    width: 200px;
+    height: 60px;
+    background-color: #e7434e;
+    padding-left: 40px;
+    border-radius: 0px 5px 5px 0px;
+}
+.label-btn {
+    position: relative;
+}
+.label-btn:before {
+    content: '';
+    position: absolute;
+    left: 48px;
+    top: 22px;
+    bottom: 0;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/sailboat-icon.svg);
+    background-repeat: no-repeat;
+}
+.statistics {
+    height: 140px;
+    background-color: #fff;
+    text-align: center;
+
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px 0px rgba(52, 52, 52, 0.15);
+}
+.stat-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.stat-item span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #343434;
+    display: block;
+}
+.stat-item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    color: #717171;
+    list-style-type: none;
+}
