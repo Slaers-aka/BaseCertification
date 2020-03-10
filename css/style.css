@@ -77,7 +77,8 @@ header {
     display: flex;
     margin-bottom: 300px;
 }
-.form input, .grid-btn {
+.form input, .grid-btn,
+.footer-email, .footer-btn {
     outline: none;
     border: none;
     box-shadow: none;
@@ -268,7 +269,8 @@ header {
     left: 27px;
     text-align: left;
 }
-.grid-text span {
+.grid-text span,
+.boat-h4 {
     font-size: 30px;
     letter-spacing: 1.2px;
     display: block;
@@ -319,5 +321,102 @@ header {
 }
 .boats-grid {
     grid-template: 1fr 1fr / 1fr 1fr;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+.boats .grid-btn {
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.boats .grid-btn:before {
+    content: none;
+}
+.boats .boat-h4 {
+    margin-bottom: 18px;
+    font-weight: 400;
+}
+.boats .boat-list {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.boats .boat-list li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+.boats .boat-list li svg {
+    height: 16px;
+    margin-right: 10px;
+}
+.footer-bg {
+    color: #fff;
+    background-color: #404040;
+    padding-top: 56px;
+    padding-bottom: 76px;
+}
+.red-line {
+    height: 6px;
+    background-size: 20px 20px;
+    background-color: #e7434e;
+    /* background-image: linear-gradient(135deg, #111454 25%, transparent 25%,
+                  transparent 50%, #111454 50%, #111454 75%,
+                  transparent 75%, transparent); */
+    /*background: linear-gradient(-135deg, rgb(34, 76, 152) 10%, transparent),
+    repeating-linear-gradient(45deg, rgba(34, 76, 152, 1) 0%,
+     rgba(31, 48, 94, 0.6) 5%, transparent 5%, transparent 10%);*/
+    background-image: repeating-linear-gradient(
+    -45deg, transparent, transparent 18px,
+      #111454 18px,#111454 22px);
+}
+.footer-partitions {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+}
+.footer-list,
+.social-list {
+    margin: 0;
+    padding: 0;
+}
+.footer-list li {
+    list-style-type: none;
+    margin-bottom: 23px;
+}
+.footer-list li a {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.56px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.footer-form {
+   margin: 0;
+}
+.footer-form .footer-email {
+    width: 270px;
+    height: 42px;
+    margin: 0;
+}
+.footer-form .footer-btn {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #e7434e;
+    padding: 15px 38px 17px 35px;
+    margin: 0;
+}
+.social-list {
+    /* display: flex; */
 }
