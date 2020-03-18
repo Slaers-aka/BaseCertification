@@ -36,6 +36,9 @@ header {
     list-style-type: none;
     margin: 0px 0px;
 }
+.nav-adaptive {
+    display: none;
+}
 .nav-item a {
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -552,7 +555,7 @@ header {
 @media (max-width: 800px) {
     .header-wrapper,
     .wrapper {
-        width: 750px;
+        width: 95%;
         padding: 0;
     }
     .header {
@@ -591,10 +594,6 @@ header {
     }
 }
 @media (max-width: 750px) {
-    .header-wrapper,
-    .wrapper {
-        width: 700px;
-    }
     .statistics {
         width: 100%;
         left: 0;
@@ -627,10 +626,7 @@ header {
         margin-right: 45px;
     }
 }
-@media (max-width: 680px) {
-    .header-wrapper, .wrapper {
-        width: 630px;
-    }
+@media (max-width: 700px) {
     header {
         margin-bottom: 65px;
     }
@@ -688,18 +684,168 @@ header {
     }
 }
 @media (max-width: 650px){
-    header-wrapper, .wrapper {
-        width: 600px;
+   
+}
+@media (max-width: 600px) {
+   
+    .head {
+        padding-top: 25px;
+    }
+    header {
+        margin-bottom: 40px;
+    }
+    .form form {
+        margin-bottom: 125px;
+    }
+    #sailor-text {
+        width: 300px;
+        height: 50px;
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    #sailor-btn {
+        width: 150px;
+        height: 50px;
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    .label-btn:before {
+        left: 10px;
+        top: 15px;
+        width: 12px;
+        height: 12px;
+        background-size: cover;
+    }
+    .statistics {
+        height: 85px;
+    }
+    .stat-list {
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+    .stat-item {
+        font-size: 12px;
+    }
+    .destinations {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .section-title {
+        margin-bottom: 50px;
+    }
+    .stat-item span {
+        font-size: 18px;
+    }
+    .grid {
+        grid-template: 1fr / 1fr;
+        margin-bottom: 70px;
+    }
+    .grid-wide-item {
+        grid-column: 1;
+    }
+    .center {
+        padding-top: 70px;
+        padding-bottom: 120px;
+    }
+    .boats {
+        padding-top: 25px;
+        padding-bottom: 60px;
+    }
+    .boats-grid {
+        margin-bottom: 60px;
+    }
+    .footer-bg {
+        padding-bottom: 20px;
+    }
+    #subscribe-item .footer-form {
+        margin-right: 0;
+    }
+    .footer-h4, .footer-form {
+        margin-bottom: 20px;
+    }
+    .social-item {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .head {
+        padding-top: 20px;
+    }
+    .form form {
+        margin-bottom: 125px;
+    }
+    #sailor-text {
+        width: 250px;
+        height: 40px;
+        font-size: 10px;
+        padding-left: 10px;
+    }
+    #sailor-btn {
+        width: 130px;
+        height: 40px;
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    .label-btn:before {
+        left: 10px;
+        top: 15px;
+        width: 10px;
+        height: 10px;
+        background-size: cover;
+    }
+    .stat-item {
+        border: none;
+    }
+}
+@media (max-width: 420px) {
+    #sailor-text {
+        width: 170px;
+        height: 40px;
+        font-size: 10px;
+        padding-left: 10px;
+    }
+    #sailor-btn {
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    .label-btn:before {
+        left: 10px;
+        top: 15px;
+        width: 10px;
+        height: 10px;
+        background-size: cover;
     }
 }
 @media (max-width: 330px) {
-    .header-wrapper, .wrapper {
-        width: 300px;
-    }
     .head {
         padding-top: 10px;
     }
-    header {
+    .form form {
+        margin-bottom: 125px;
+    }
+    #sailor-text {
+        width: 170px;
+        height: 40px;
+        font-size: 10px;
+        padding-left: 10px;
+    }
+    #sailor-btn {
+        width: 100px;
+        height: 40px;
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    .label-btn:before {
+        left: 10px;
+        top: 15px;
+        width: 10px;
+        height: 10px;
+        background-size: cover;
+    }
+    /*header {
         margin-bottom: 40px;
     }
     .form form {
@@ -773,5 +919,5 @@ header {
     .social-item {
         margin-right: 10px;
         margin-left: 10px;
-    }
+    } */
 }
