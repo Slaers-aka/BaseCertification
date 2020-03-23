@@ -10,8 +10,8 @@
 </head>
 <body>
     <div class="head">
-        <div class="header-wrapper">
-            <header>
+        <header>
+            <div class="header-wrapper">
                 <div class="logo">
                     <a href="#">
                         <img src="img/logo.svg" alt="Nava">
@@ -21,17 +21,14 @@
                     <ul class="nav">
                         <li class="nav-item"><a href="#">TOP DESTINATIONS</a></li>
                         <li class="nav-item"><a href="#">ADD YOUR BOAT</a></li>
-                        <li class="nav-item nav-adaptive">TOP LOCATIONS</li>
-                        <li class="nav-item nav-adaptive">FEATURED BOATS</li>
-                        <li class="nav-item nav-adaptive">CONTACT US</li>
                         <li class="nav-item sign-up"><a href="#">SIGN UP</a></li>
                     </ul>
-                    <label class="nav-icon">
-                        <i class="fas fa-bars"></i>
-                    </label>
                 </nav>
-            </header>
-        </div>
+                <div class="nav-icon">
+                    <span></span>
+                </div>
+            </div>
+        </header>
         <div class="wrapper">
             <div class="title">
                 <h1 class="title-h1">RESERVE A BOAT NOW!</h1>
@@ -194,59 +191,69 @@
         <div class="red-line"></div>
         <div class="footer-bg">
             <div class="wrapper">
-                <div class="footer-partitions">
+                <div class="footer-partitions one">
                     <div class="partitions-item">
                         <h4 class="footer-h4">TOP LOCATIONS</h4>
-                        <ul class="footer-list">
-                            <li><a href="#">Lorem ipsum dolor</a></li>
-                            <li><a href="#">Sit amet consectetur</a></li>
-                            <li><a href="#">Adipisicing elit</a></li>
-                            <li><a href="#">Eiusmod tempor</a></li>
-                            <li><a href="#">Incididunt ut labore</a></li>
-                        </ul>
+                        <div class="save-footer-item-container">
+                            <ul class="footer-list">
+                                <li><a href="#">Lorem ipsum dolor</a></li>
+                                <li><a href="#">Sit amet consectetur</a></li>
+                                <li><a href="#">Adipisicing elit</a></li>
+                                <li><a href="#">Eiusmod tempor</a></li>
+                                <li><a href="#">Incididunt ut labore</a></li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="partitions-item">
                         <h4 class="footer-h4">FEATURED BOATS</h4>
-                        <ul class="footer-list">
-                            <li><a href="#">Lorem ipsum dolor</a></li>
-                            <li><a href="#">Sit amet consectetur</a></li>
-                            <li><a href="#">Adipisicing elit</a></li>
-                            <li><a href="#">Eiusmod tempor</a></li>
-                        </ul>
+                        <div class="save-footer-item-container">
+                            <ul class="footer-list">
+                                <li><a href="#">Lorem ipsum dolor</a></li>
+                                <li><a href="#">Sit amet consectetur</a></li>
+                                <li><a href="#">Adipisicing elit</a></li>
+                                <li><a href="#">Eiusmod tempor</a></li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="partitions-item" id="subscribe-item">
-                        <h4 class="footer-h4">SUBSCRIBE TO OUR NEWSLETTER</h4>
-                        <form action="#" class="footer-form">
-                            <input type="email" class="footer-email " placeholder="Your email adress">
-                            <input type="button" class="footer-btn" value="SUBSCRIBE"> 
-                        </form>
-                        <ul class="social-list">
-                            <li class="social-item">
-                                <a href="#" class="social-circle">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li class="social-item">
-                                <a href="#" class="social-circle">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="social-item">
-                                <a href="#" class="social-circle">
-                                    <i class="fab fa-google-plus-g"></i>
-                                </a>
-                            </li>
-                        </ul>
+                        <h4 class="footer-h4 subscribe-h4" id="subscribe-h4">SUBSCRIBE TO OUR NEWSLETTER</h4>
+                        <div class="save-footer-item-container">
+                            <div class="subscribe-flex">
+                                <form action="#" class="footer-form">
+                                    <input type="email" class="footer-email " placeholder="Your email adress">
+                                    <input type="button" class="footer-btn" value="SUBSCRIBE"> 
+                                </form>
+                                <ul class="social-list">
+                                    <li class="social-item">
+                                        <a href="#" class="social-circle">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-item">
+                                        <a href="#" class="social-circle">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="social-item">
+                                        <a href="#" class="social-circle">
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <div class="partitions-item">
                         <h4 class="footer-h4">CONTACT US</h4>
-                        <ul class="footer-list">
-                            <li><a href="#">Lorem ipsum dolor</a></li>
-                            <li><a href="#">Sit amet consectetur</a></li>
-                            <li><a href="#">Adipisicing elit</a></li>
-                            <li><a href="#">Eiusmod tempor</a></li>
-                            <li><a href="#">Incididunt ut labore</a></li>
-                        </ul>
+                        <div class="save-footer-item-container">
+                            <ul class="footer-list">
+                                <li><a href="#">Lorem ipsum dolor</a></li>
+                                <li><a href="#">Sit amet consectetur</a></li>
+                                <li><a href="#">Adipisicing elit</a></li>
+                                <li><a href="#">Eiusmod tempor</a></li>
+                                <li><a href="#">Incididunt ut labore</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
